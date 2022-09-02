@@ -30,3 +30,6 @@ h2 {
     font-family: 'Century Gothic', sans-serif;
 
 }
+span {
+    content: "\2698";
+  }
