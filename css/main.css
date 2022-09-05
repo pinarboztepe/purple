@@ -30,6 +30,9 @@ h2 {
     font-family: 'Century Gothic', sans-serif;
 
 }
+.alien {
+    margin-left: :100px;
+}
 *{
     box-sizing: border-box;
     margin: 0;
