@@ -30,3 +30,47 @@ h2 {
     font-family: 'Century Gothic', sans-serif;
 
 }
+body {
+    margin: 0;
+  }
+   
+  img {
+    display: block;
+  }
+   
+  .foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+   
+  .ufo_section {
+    height: 100%;
+    background: url(../images/ufo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40% auto;
+    background-attachment: fixed;
+  }
+   
+  .comet_section {
+    height: 100%;
+    background: url(../images/alien_comet.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15% auto;
+    background-attachment: fixed;
+  }
+   
+  .landing_section {
+    height: 100%;
+    background: url(../images/alien_landing.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15% auto;
+    background-attachment: fixed;
+    position: relative;
+  }
