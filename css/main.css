@@ -28,6 +28,7 @@ h2 {
     margin-top: 15%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
+    border-radius: 100px;
 
 }
 .alien {
@@ -86,3 +87,4 @@ h2 {
     border-radius: 25px / 50px;
     transform: rotateZ(45deg);
   }
+  
