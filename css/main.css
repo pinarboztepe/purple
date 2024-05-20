@@ -1,5 +1,5 @@
 body {
-    margin-top: 10%;
+    margin-top: 5%;
     /* background-color: #292524; */
     background-color: #d7ddde;
     color: #fff;
@@ -23,9 +23,11 @@ h2 {
     padding: 30px;
 }
 .box{
-    width: 450px;
+    /* width: 450px; */
+    width: 100%;
+    height: auto;
     background: rgba(0, 0, 0, 0.4);
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     margin: auto;
     color: white;
@@ -35,6 +37,7 @@ h2 {
 .logo {
     width: 250px;
     border-radius: 175px;
+    margin-top: 20px;
 }
 
 .info {
@@ -64,6 +67,10 @@ ul {
     padding: 0;
 }
 
+.info-item span:hover, .nav_link:hover {
+    color: rgba(236, 198, 255, 0.846);
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -89,4 +96,66 @@ nav {
 .nav_link {
     text-decoration: none;
     color: white; /* Adjust link color as needed */
+}
+
+.vempo-logo {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.spare-pals-logo {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.spare-pals-logo:hover, .vempo-logo:hover {
+    transform: scale(1.2);
+}
+
+.logo:hover {
+    filter: saturate(0.2);
+}
+
+#projects, #about {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#projects li a {
+    color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about p {
+    margin: 0 50px;
+}
+
+.pinar-b {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10%;
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+
+.pinar-b:hover {
+    filter: saturate(0.2);
+}
+
+.pinar-info {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 20px; /* Space between the image and the text */
 }
