@@ -103,6 +103,7 @@ nav {
     height: auto;
     margin-top: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 
@@ -111,10 +112,11 @@ nav {
     height: auto;
     margin-top: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 .spare-pals-logo:hover, .vempo-logo:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .logo:hover {
@@ -156,6 +158,6 @@ nav {
 
 .pinar-info {
     display: flex;
-    align-items: center; /* Align items vertically centered */
-    gap: 20px; /* Space between the image and the text */
+    align-items: center;
+    gap: 10px;
 }
