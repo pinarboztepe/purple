@@ -1,108 +1,144 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 
-<body>
-    <nav>
-        <ul class="nav_list" id="nav-list">
-            <li class="nav_item">
-                <a href="#home" class="nav_link">Home</a>
-            </li>
-            <li class="nav_item">
-                <a href="#about" class="nav_link">About</a>
-            </li>
-            <li class="nav_item">
-                <a href="#projects" class="nav_link">Projects</a>
-            </li>
-            <li class="nav_item">
-                <a href="#contact" class="nav_link"></a>
-            </li>
-        </ul>
-    </nav>
 
-    <div class="box" id="home">
-        <img src="img/pinar_profile.jpg" alt="Pinar" class="logo" />
-        <br>
-        <h1>Pinar Boztepe</h1>
-        <h2>Web Developer</h2>
-        <div class="info">
-            <div class="info-item">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="w-4 h-4" title="Location">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
-                    <circle cx="12" cy="10" r="3"></circle>
-                </svg>
-                <br />
-                <span>London</span>
-            </div>
 
-            <div class="info-item">
-                <a href="https://www.github.com/pinarboztepe" target="_blank">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devise-width", initial-scale="1.0">
+        <title>Pinar Boztepe | Full-Stack Developer</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="nav_list" id="nav-list">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#projects" class="nav_link">Projects</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#about" class="nav_link">About</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contactForm" class="nav_link">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="box" id="home">
+            <img src="img/pinar_profile.jpg" alt="Pinar" class="logo" />
+            <br>
+            <h1>PINAR BOZTEPE</h1>
+            <h2>Full-Stack Developer</h2>
+            <div class="info">
+                <div class="info-item">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="w-4 h-4" title="GitHub">
-                        <path
-                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22">
-                        </path>
+                        class="w-4 h-4" title="Location">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
                     </svg>
                     <br />
-                    <span>GitHub</span>
-                </a>
-            </div>
+                    <span>London</span>
+                </div>
 
-            <br>
-            
-            <div id="skills">
-                <h3>Technologies & Platforms</h3>
-                <ul role="presentation">
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Ruby</li>
-                    <li>React</li>   
-                    <br> 
-                </ul>
+                <div class="info-item">
+                    <a href="https://www.github.com/pinarboztepe" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="w-4 h-4" title="GitHub">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22">
+                            </path>
+                        </svg>
+                        <br />
+                        <span>GitHub</span>
+                    </a>
+                </div>
+
+                <br>
+                
+                <div id="skills">
+                    <h3>Technologies & Platforms</h3>
+                    <ul role="presentation">
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Ruby</li>
+                        <li>React</li>   
+                        <br> 
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
-    <br>
+        <br>
 
-    
-    
-    <div id="projects">
-        <h3>Projects</h3>
-        <ul role="presentation">
-            <li><strong>Vempo</strong></li>
-            <p>This pioneering platform seamlessly fuses music and visual artistry, providing a transformative canvas where sound and sight converge. Immerse yourself in the creative process as you craft and personalize dynamic, synchronized shapes that dance harmoniously with your uploaded music. Each beat and note brings your visual creations to life, allowing your artistic vision to flourish in an enchanting symphony of color and motion. Explore the limitless possibilities of this innovative tool, where every composition becomes a unique masterpiece, reflecting your personal expression and artistic flair.</p>
-            <li><a href="https://www.vempo.site/" target="_blank"><img src="img/vempo.png" alt="Vempo" class="vempo-logo" /></a></li>
-            <br>
-            <br>
-            <br>
-            <li><strong>Spare Pals</strong></li>
-            <p>Spare Pals offers a unique service catering to various needs, whether for leisurely activities, daily outings, or even hospital visits. Simply visit the website to access a seamless booking system: check the availability of Pals, select the specific dates and hours needed. Additionally, you have the option to create an account for your own Pals to be hired by others, expanding the network of available companions. Seamlessly blending technology and human connection, Spare Pals transforms into a stage where stories unfold and memories are etched into the fabric of time. Every interaction involves payment, as users hire like-minded individuals on an hourly basis. It's a symphony of shared experiences, with each interaction painting a masterpiece of profound connection and lasting resonance.</p>
-            <br>
-            <br>
-            <li><a href="https://spare-pals-657ebfd3b407.herokuapp.com/" target="_blank"><img src="img/spare_pals.png" alt="Spare Pals" class="spare-pals-logo" /></a></li>
-        </ul>
-    </div>
+        
+        
+        <div id="projects">
+            <h3>Projects</h3>
+            <ul role="presentation">
+                <li id="vempo"><strong>Vempo</strong></li>
+                <p>This pioneering platform seamlessly fuses music and visual artistry, providing a transformative canvas where sound and sight converge. Immerse yourself in the creative process as you craft and personalize dynamic, synchronized shapes that dance harmoniously with your uploaded music. Each beat and note brings your visual creations to life, allowing your artistic vision to flourish in an enchanting symphony of color and motion. Explore the limitless possibilities of this innovative tool, where every composition becomes a unique masterpiece, reflecting your personal expression and artistic flair.</p>
+                <br>
+                <br>
+                <li><a href="https://www.vempo.site/" target="_blank"><img src="img/vempo.png" alt="Vempo" class="vempo-logo" /></a></li>
+                <br>
+                <br>
+                <br>
+                <li id="sparePals"><strong>Spare Pals</strong></li>
+                <p>Spare Pals offers a unique service catering to various needs, whether for leisurely activities, daily outings, or even hospital visits. Simply visit the website to access a seamless booking system: check the availability of Pals, select the specific dates and hours needed. Additionally, you have the option to create an account for your own Pals to be hired by others, expanding the network of available companions. Seamlessly blending technology and human connection, Spare Pals transforms into a stage where stories unfold and memories are etched into the fabric of time. Every interaction involves payment, as users hire like-minded individuals on an hourly basis. It's a symphony of shared experiences, with each interaction painting a masterpiece of profound connection and lasting resonance.</p>
+                <br>
+                <br>
+                <li><a href="https://spare-pals-657ebfd3b407.herokuapp.com/" target="_blank"><img src="img/spare_pals.png" alt="Spare Pals" class="spare-pals-logo" /></a></li>
+            </ul>
+        </div>
 
-    <br>
+        <br>
+        <br>
 
-    <div id="about">
-        <h3>About</h3>
-        <div class="pinar-info">
-            <img src="img/pinar_b.jpg" alt="pinar_picture" class="pinar-b">
-            <p>I'm Pinar, a passionate full-stack developer based in London with a knack for blending creativity and technology. When I'm not coding, you can find me indulging in my love for art—painting and sculpting my thoughts into reality. As a drummer, I bring rhythm and energy into my life, and I stay active with various sports to keep my mind and body in sync. Always exploring new challenges and pushing the boundaries of what's possible!</p>
-            <br>
-            <br>  
-        </div> 
-    </div>
-    
-</body>
+        <div id="about">
+            <h3>About</h3>
+            <div class="pinar-info">
+                <img src="img/pinar_b.jpg" alt="pinar_picture" class="pinar-b">
+                <p>I'm Pinar, a passionate full-stack developer based in London with a knack for blending creativity and technology. When I'm not coding, you can find me indulging in my love for art—painting and sculpting my thoughts into reality. As a drummer, I bring rhythm and energy into my life, and I stay active with various sports to keep my mind and body in sync. Always exploring new challenges and pushing the boundaries of what's possible!</p>
+                <br>
+                <br>  
+            </div> 
+        </div>
+
+        <div class="contact-form">
+            <h3>Contact Me</h3>
+            <form id="contactForm" action="https://formspree.io/f/mqkropqy" method="POST"  onsubmit="this.submit(); this.reset(); return false;">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <!-- <script type="text/javascript" src="contact.js"></script> -->
+        
+        
+    </body>
 
 </html>
