@@ -277,10 +277,10 @@ nav {
     }
 } */
 
-@media only screen and (max-width: 480) {
+@media only screen and (max-width: 480px) {
     .box {
         width: 100%;
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     .logo {
