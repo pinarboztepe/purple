@@ -281,8 +281,7 @@ nav {
     .box {
         width: 100%;
         height: auto;
-        margin: auto;
-
+        margin-top: 10%;
     }
 
     .logo {
