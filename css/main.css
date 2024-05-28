@@ -302,6 +302,7 @@ nav {
 
     nav {
         position: fixed;
+        margin-bottom: 10px;
     }
 
     .contact-form {
