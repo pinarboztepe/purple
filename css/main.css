@@ -280,6 +280,7 @@ nav {
 @media only screen and (max-width: 480) {
     .box {
         width: 100%;
+        margin-top: 10%;
     }
 
     .logo {
@@ -300,5 +301,9 @@ nav {
 
     nav {
         position: fixed;
+    }
+
+    .contact-form {
+        width: 100%;
     }
 }
