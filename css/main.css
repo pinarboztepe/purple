@@ -254,3 +254,51 @@ nav {
 .contact-form button:hover {
     opacity: 1;
 }
+
+/* @media screen and (max-width: 600px) {
+    .box {
+        width: 100%;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .vempo-logo, .spare-pals-logo {
+        width: 50%;
+    }
+
+    .pinar-b {
+        width: 50%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+} */
+
+@media only screen and (max-width: 480) {
+    .box {
+        width: 100%;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .vempo-logo, .spare-pals-logo {
+        width: 50%;
+    }
+
+    .pinar-b {
+        width: 50%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    nav {
+        position: fixed;
+    }
+}
